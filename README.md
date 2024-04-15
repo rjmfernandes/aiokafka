@@ -45,6 +45,12 @@ chmod u+x producer.py
 ./producer.py 
 ```
 
+# Cleanup
 
+```shell
+confluent local services stop
+confluent local kafka stop
+deactivate
+```
 
 
